@@ -1,0 +1,37 @@
+header {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    .logo {
+        font-weight: 700;
+        font-size: 1.3rem;
+        color: @green;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: @text-soft;
+        margin-left: 20px;
+        font-weight: 600;
+        transition: color 0.3s;
+
+        &:hover {
+            color: @green;
+        }
+    }
+}
+
+footer {
+    background: @dark;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    font-size: 0.9rem;
+}

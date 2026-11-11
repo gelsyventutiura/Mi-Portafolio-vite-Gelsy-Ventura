@@ -1,0 +1,15 @@
+<section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <p>Contácteme para adquirir mis servicios</p>
+    <ul>
+        <li>Email: <a href="mailto:{{contacto.correo}}">{{contacto.correo}}</a></li>
+        <li>Teléfono: <a href="tel:{{contacto.telefono}}">{{contacto.telefono}}</a></li>
+    </ul>
+    <form id="contact-form">
+        <input type="text" id="nombre" placeholder="Tu Nombre" required>
+        <input type="email" id="email" placeholder="Tu Correo Electrónico" required>
+        <textarea id="mensaje" placeholder="Tu Mensaje" rows="4" required></textarea>
+        <button type="submit" class="btn">Enviar Mensaje</button>
+    </form>
+    <p id="form-status" class="success-msg"></p>
+</section>
